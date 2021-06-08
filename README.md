@@ -26,8 +26,8 @@ blooming will also have a FAQ page as well as a blog page.
 
 ### User Stories
 
-<!-- - Users will see homepage/landing page.
--  -->
+- Users will see homepage/landing page.
+- Users will be able to navigate between plants page, supplies page, merch page, FAQ page, Blog page, and shopping cart page.
 
 ---
 
@@ -35,11 +35,14 @@ blooming will also have a FAQ page as well as a blog page.
 
 Initial Mockup/Wireframe
 
-![Main Page]()
+Main Page
+![Main Page](assets/mainpage-blooming.png)
 
-![Plant Products Page]()
+Plants Product Page
+![Plant Products Page](assets/plantproductpage-blooming.png)
 
-![Cart Page]()
+Cart Page
+![Cart Page](assets/cartpage-blooming.png)
 
 ---
 
@@ -61,4 +64,4 @@ Initial Mockup/Wireframe
 
 ### Credits
 
-<!-- [Netlify]() -->
+[Netlify](https://www.netlify.com/)
