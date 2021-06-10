@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/Global.css";
-import Nav from "../components/Nav";
+import BeigeNav from "../components/BeigeNav";
 
 const MainPage = () => {
   return (
     <div className="mainpage">
-      <Nav />
+      <BeigeNav />
     </div>
   );
 };
