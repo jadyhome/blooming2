@@ -1,4 +1,14 @@
-.mainpage {
+.mainpage,
+.suppliespage,
+.faqpage {
+  background-color: #75a680;
+  height: 100vh;
+}
+
+.plantspage,
+.merchpage,
+.blogpage,
+.cartpage {
   background-color: #f6ddca;
   height: 100vh;
 }
