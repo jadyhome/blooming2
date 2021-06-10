@@ -10,7 +10,11 @@ const BeigeNav = () => {
           Plants
         </NavLink>
 
-        <NavLink to="/supplies" className="b-supplies">
+        <NavLink
+          to="/supplies"
+          activeClassName="b-highlighted"
+          className="b-supplies"
+        >
           Supplies
         </NavLink>
 
@@ -26,7 +30,7 @@ const BeigeNav = () => {
           Blog
         </NavLink>
 
-        <NavLink to="/faq" className="b-faq">
+        <NavLink to="/faq" activeClassName="b-highlighted" className="b-faq">
           FAQ
         </NavLink>
 
