@@ -65,3 +65,10 @@ Cart Page
 ### Credits
 
 [Netlify](https://www.netlify.com/)
+
+[Pexels](https://www.pexels.com/)
+- [@corin](https://www.pexels.com/@corin)
+- [@tharatip-sukee-294273](https://www.pexels.com/@tharatip-sukee-294273)
+- [@cottonbro](https://www.pexels.com/@cottonbro)
+- [@minan1398](https://www.pexels.com/@minan1398)
+- [@fotios-photos](https://www.pexels.com/@fotios-photos)
