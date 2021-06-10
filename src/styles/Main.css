@@ -1,0 +1,151 @@
+/** CAROUSEL **/
+
+.container {
+  margin: 30px auto;
+  margin-bottom: 0;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+}
+
+.container .slides {
+  width: 100%;
+  height: 300px;
+}
+
+.slides {
+  position: absolute;
+  object-fit: cover;
+  animation: round 16s infinite;
+  opacity: 0;
+}
+
+@keyframes round {
+  25% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+}
+img:nth-child(1) {
+  animation-delay: 12s;
+}
+
+img:nth-child(2) {
+  animation-delay: 8s;
+}
+
+img:nth-child(3) {
+  animation-delay: 4s;
+}
+
+img:nth-child(4) {
+  animation-delay: 0s;
+}
+
+/** CAROUSEL **/
+
+/** PLANT PREVIEW **/
+
+.plants-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  row-gap: 30px;
+  gap: 30px;
+  position: relative;
+  justify-items: center;
+}
+
+.plantimg1,
+.plantimg2,
+.plantimg3,
+.plantimg4,
+.plantimg5,
+.plantimg5 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.pimg1,
+.pimg2,
+.pimg3,
+.pimg4,
+.pimg5,
+.pimg6 {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.pimg1:hover,
+.pimg2:hover,
+.pimg3:hover,
+.pimg4:hover,
+.pimg5:hover,
+.pimg6:hover {
+  border: 2px solid #f6ddca;
+  box-shadow: 12px 12px 0 0 #f6ddca;
+  transition-timing-function: ease;
+  transition: 0.2s;
+  transform: translateY(-7px);
+}
+
+/** PLANT PREVIEW **/
+
+/** FOOTER **/
+
+.footer {
+  height: 150px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #f6ddca;
+}
+
+.footer-info {
+  text-align: center;
+}
+
+.subscribe {
+  font-family: "Bitter", serif;
+  font-weight: bolder;
+  font-size: 32px;
+  color: #75a680;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+input {
+  font-family: "Bitter", serif;
+  font-weight: bolder;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  padding: 0.75rem;
+  width: 25rem;
+  background-color: #75a680;
+  color: #f6ddca;
+}
+
+input::placeholder {
+  opacity: 70%;
+  color: #f6ddca;
+  padding-left: 10px;
+}
+
+button {
+  font-family: "Bitter", serif;
+  font-weight: bolder;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  padding: 0.75rem;
+  width: 7rem;
+  margin-left: 20px;
+  background-color: #75a680;
+  color: #f6ddca;
+  cursor: pointer;
+}
+
+/** FOOTER **/
