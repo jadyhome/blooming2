@@ -1,6 +1,11 @@
 a {
   text-decoration: none;
-  padding: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+a:hover {
+  cursor: pointer;
 }
 
 /** GREEN NAVBAR **/
@@ -21,7 +26,7 @@ a {
 .g-title {
   font-family: "Bitter", serif;
   font-weight: bolder;
-  font-size: 80px;
+  font-size: 60px;
   color: #75a680;
 }
 
@@ -33,8 +38,25 @@ a {
 .g-cart {
   font-family: "Bitter", serif;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 20px;
   color: #75a680;
+}
+
+.g-plant:hover,
+.g-supplies:hover,
+.g-merch:hover,
+.g-faq:hover,
+.g-blog:hover,
+.g-cart:hover {
+  position: relative;
+  top: -10px;
+  border-bottom: 10px solid #75a680;
+}
+
+.g-highlighted {
+  position: relative;
+  top: -10px;
+  border-bottom: 10px solid #75a680;
 }
 
 /** GREEN NAVBAR **/
@@ -57,7 +79,7 @@ a {
 .b-title {
   font-family: "Bitter", serif;
   font-weight: bolder;
-  font-size: 80px;
+  font-size: 60px;
   color: #f6ddca;
 }
 
@@ -69,8 +91,25 @@ a {
 .b-cart {
   font-family: "Bitter", serif;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 20px;
   color: #f6ddca;
+}
+
+.b-plant:hover,
+.b-supplies:hover,
+.b-merch:hover,
+.b-faq:hover,
+.b-blog:hover,
+.b-cart:hover {
+  position: relative;
+  top: -10px;
+  border-bottom: 10px solid #f6ddca;
+}
+
+.b-highlighted {
+  position: relative;
+  top: -10px;
+  border-bottom: 10px solid #f6ddca;
 }
 
 /** BEIGE NAVBAR **/
