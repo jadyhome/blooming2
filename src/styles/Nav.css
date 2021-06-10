@@ -1,4 +1,11 @@
-.navbar {
+a {
+  text-decoration: none;
+  padding: 20px;
+}
+
+/** GREEN NAVBAR **/
+
+.green-navbar {
   display: flex;
   justify-content: space-evenly;
   margin-left: 20px;
@@ -6,30 +13,64 @@
   border-bottom: 12px solid #75a680;
 }
 
-nav {
+.green-nav {
   margin-top: 20px;
   margin-bottom: 7px;
 }
 
-a {
-  text-decoration: none;
-  color: #75a680;
-  padding: 20px;
-}
-
-.title {
+.g-title {
   font-family: "Bitter", serif;
   font-weight: bolder;
   font-size: 80px;
+  color: #75a680;
 }
 
-.plant,
-.supplies,
-.merch,
-.faq,
-.blog,
-.cart {
+.g-plant,
+.g-supplies,
+.g-merch,
+.g-faq,
+.g-blog,
+.g-cart {
   font-family: "Bitter", serif;
   font-weight: 500;
   font-size: 24px;
+  color: #75a680;
 }
+
+/** GREEN NAVBAR **/
+
+/** BEIGE NAVBAR **/
+
+.beige-navbar {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-bottom: 12px solid #f6ddca;
+}
+
+.beige-nav {
+  margin-top: 20px;
+  margin-bottom: 7px;
+}
+
+.b-title {
+  font-family: "Bitter", serif;
+  font-weight: bolder;
+  font-size: 80px;
+  color: #f6ddca;
+}
+
+.b-plant,
+.b-supplies,
+.b-merch,
+.b-faq,
+.b-blog,
+.b-cart {
+  font-family: "Bitter", serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #f6ddca;
+}
+
+/** BEIGE NAVBAR **/
