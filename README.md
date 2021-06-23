@@ -35,14 +35,29 @@ blooming will also have a FAQ page as well as a blog page.
 
 Initial Mockup/Wireframe
 
-Main Page
-![Main Page](assets/mainpage-blooming.png)
+All Pages
+![All Pages](assets/allpages.jpg)
 
-Plants Product Page
-![Plant Products Page](assets/plantproductpage-blooming.png)
+Main Page
+![Main Page](assets/mainpage.png)
+
+Plants Page
+![Plant Page](assets/plantspage.png)
+
+Supplies Page
+![Supplies Page](assets/suppliespage.png)
+
+Merch Page
+![Merch Page](assets/merchpage.png)
+
+Blog Page
+![Blog Page](assets/blogpage.png)
+
+FAQ Page
+![FAQ Page](assets/faqpage.png)
 
 Cart Page
-![Cart Page](assets/cartpage-blooming.png)
+![Cart Page](assets/cartpage.png)
 
 ---
 
@@ -65,6 +80,8 @@ Cart Page
 ### Credits
 
 [Netlify](https://www.netlify.com/)
+
+[Figma](https://www.figma.com)
 
 [Pexels](https://www.pexels.com/)
 - [@corin](https://www.pexels.com/@corin)
