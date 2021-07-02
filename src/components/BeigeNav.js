@@ -6,19 +6,23 @@ const BeigeNav = () => {
   return (
     <header className="beige-navbar">
       <nav className="beige-nav">
-        <NavLink to="/plants" className="b-plant">
+        <NavLink
+          to="/plants"
+          activeClassName="b-highlighted"
+          className="b-plant"
+        >
           Plants
         </NavLink>
 
-        <NavLink
-          to="/supplies"
-          activeClassName="b-highlighted"
-          className="b-supplies"
-        >
+        <NavLink to="/supplies" className="b-supplies">
           Supplies
         </NavLink>
 
-        <NavLink to="/merch" className="b-merch">
+        <NavLink
+          to="/merch"
+          activeClassName="b-highlighted"
+          className="b-merch"
+        >
           Merch
         </NavLink>
 
@@ -26,15 +30,15 @@ const BeigeNav = () => {
           blooming
         </NavLink>
 
-        <NavLink to="/blog" className="b-blog">
+        <NavLink to="/blog" activeClassName="b-highlighted" className="b-blog">
           Blog
         </NavLink>
 
-        <NavLink to="/faq" activeClassName="b-highlighted" className="b-faq">
+        <NavLink to="/faq" className="b-faq">
           FAQ
         </NavLink>
 
-        <NavLink to="/cart" className="b-cart">
+        <NavLink to="/cart" activeClassName="b-highlighted" className="b-cart">
           Cart
         </NavLink>
       </nav>
