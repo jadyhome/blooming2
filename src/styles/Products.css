@@ -1,0 +1,47 @@
+.products-container {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 1fr 3fr;
+  gap: 30px 30px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  margin-right: 50px;
+}
+
+.supplies-topics {
+  margin-left: 50px;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #75a680;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.supplies-products {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 30px 30px;
+  position: relative;
+  justify-items: center;
+}
+
+.product1,
+.product2,
+.product3,
+.product4 {
+  width: 440px;
+  height: 440px;
+  object-fit: cover;
+}
+
+.supply {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: #75a680;
+}
