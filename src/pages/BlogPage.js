@@ -1,11 +1,11 @@
 import React from "react";
 import "../styles/Global.css";
-import GreenNav from "../components/GreenNav";
+import BeigeNav from "../components/BeigeNav";
 
 const BlogPage = () => {
   return (
     <div className="blogpage">
-      <GreenNav />
+      <BeigeNav />
     </div>
   );
 };

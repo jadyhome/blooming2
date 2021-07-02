@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Global.css";
-import BeigeNav from "../components/BeigeNav";
+import GreenNav from "../components/GreenNav";
 import Carousel from "../components/Carousel";
 import PlantPreview from "../components/PlantPreview";
 import Footer from "../components/Footer";
@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 const MainPage = () => {
   return (
     <div className="mainpage">
-      <BeigeNav />
+      <GreenNav />
       <Carousel />
       <PlantPreview />
       <Footer />
