@@ -89,3 +89,4 @@ Cart Page
 - [@cottonbro](https://www.pexels.com/@cottonbro)
 - [@minan1398](https://www.pexels.com/@minan1398)
 - [@fotios-photos](https://www.pexels.com/@fotios-photos)
+- [@gary-barnes](https://www.pexels.com/@gary-barnes)
