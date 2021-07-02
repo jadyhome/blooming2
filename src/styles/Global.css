@@ -11,7 +11,7 @@ body {
 .mainpage,
 .suppliespage,
 .faqpage {
-  background-color: #75a680;
+  background-color: #f6ddca;
   width: 100%;
 }
 
@@ -19,6 +19,6 @@ body {
 .merchpage,
 .blogpage,
 .cartpage {
-  background-color: #f6ddca;
+  background-color: #75a680;
   width: 100%;
 }

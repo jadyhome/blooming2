@@ -24,7 +24,7 @@ a:hover {
 }
 
 .g-title {
-  font-family: "Bitter", serif;
+  font-family: "Lora", serif;
   font-weight: bolder;
   font-size: 60px;
   color: #75a680;
@@ -36,8 +36,8 @@ a:hover {
 .g-faq,
 .g-blog,
 .g-cart {
-  font-family: "Bitter", serif;
-  font-weight: 500;
+  font-family: "Karla", serif;
+  font-weight: 700;
   font-size: 20px;
   color: #75a680;
 }
@@ -50,13 +50,13 @@ a:hover {
 .g-cart:hover {
   position: relative;
   top: -10px;
-  border-bottom: 10px solid #75a680;
+  border-bottom: 5px solid #75a680;
 }
 
 .g-highlighted {
   position: relative;
   top: -10px;
-  border-bottom: 10px solid #75a680;
+  border-bottom: 5px solid #75a680;
 }
 
 /** GREEN NAVBAR **/
@@ -77,7 +77,7 @@ a:hover {
 }
 
 .b-title {
-  font-family: "Bitter", serif;
+  font-family: "Lora", serif;
   font-weight: bolder;
   font-size: 60px;
   color: #f6ddca;
@@ -89,8 +89,8 @@ a:hover {
 .b-faq,
 .b-blog,
 .b-cart {
-  font-family: "Bitter", serif;
-  font-weight: 500;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
   font-size: 20px;
   color: #f6ddca;
 }
@@ -103,13 +103,13 @@ a:hover {
 .b-cart:hover {
   position: relative;
   top: -10px;
-  border-bottom: 10px solid #f6ddca;
+  border-bottom: 5px solid #f6ddca;
 }
 
 .b-highlighted {
   position: relative;
   top: -10px;
-  border-bottom: 10px solid #f6ddca;
+  border-bottom: 5px solid #f6ddca;
 }
 
 /** BEIGE NAVBAR **/
