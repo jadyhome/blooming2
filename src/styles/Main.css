@@ -85,8 +85,8 @@ img:nth-child(4) {
 .pimg4:hover,
 .pimg5:hover,
 .pimg6:hover {
-  border: 2px solid #f6ddca;
-  box-shadow: 12px 12px 0 0 #f6ddca;
+  border: 2px solid #ffefe3;
+  box-shadow: 12px 12px 0 0 #ffefe3;
   transition-timing-function: ease;
   transition: 0.2s;
   transform: translateY(-7px);
@@ -94,48 +94,46 @@ img:nth-child(4) {
 
 /** PLANT PREVIEW **/
 
-/** FOOTER **/
+/** GREEN FOOTER **/
 
-.footer {
+.g-footer {
   height: 150px;
-  margin-left: 20px;
-  margin-right: 20px;
-  background-color: #f6ddca;
+  background-color: #86ad9a;
 }
 
-.footer-info {
+.g-footer-info {
   text-align: center;
 }
 
-.subscribe {
-  font-family: "Bitter", serif;
+.g-subscribe {
+  font-family: "Karla", serif;
   font-weight: bolder;
   font-size: 32px;
-  color: #75a680;
+  color: #ffefe3;
   padding-top: 20px;
   padding-bottom: 10px;
 }
 
-input {
-  font-family: "Bitter", serif;
+.g-email {
+  font-family: "Karla", serif;
   font-weight: bolder;
   font-size: 18px;
   border: none;
   outline: none;
   padding: 0.75rem;
   width: 25rem;
-  background-color: #75a680;
-  color: #f6ddca;
+  background-color: #ffefe3;
+  color: #86ad9a;
 }
 
-input::placeholder {
+.g-email::placeholder {
   opacity: 70%;
-  color: #f6ddca;
+  color: #86ad9a;
   padding-left: 10px;
 }
 
-button {
-  font-family: "Bitter", serif;
+.g-submit {
+  font-family: "Karla", serif;
   font-weight: bolder;
   font-size: 18px;
   border: none;
@@ -143,9 +141,63 @@ button {
   padding: 0.75rem;
   width: 7rem;
   margin-left: 20px;
-  background-color: #75a680;
-  color: #f6ddca;
+  background-color: #ffefe3;
+  color: #86ad9a;
   cursor: pointer;
 }
 
-/** FOOTER **/
+/** GREEN FOOTER **/
+
+/** BEIGE FOOTER **/
+
+.b-footer {
+  height: 150px;
+  background-color: #ffefe3;
+}
+
+.b-footer-info {
+  text-align: center;
+}
+
+.b-subscribe {
+  font-family: "Karla", serif;
+  font-weight: bolder;
+  font-size: 32px;
+  color: #86ad9a;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.b-email {
+  font-family: "Karla", serif;
+  font-weight: bolder;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  padding: 0.75rem;
+  width: 25rem;
+  background-color: #86ad9a;
+  color: #ffefe3;
+}
+
+.b-email::placeholder {
+  opacity: 70%;
+  color: #ffefe3;
+  padding-left: 10px;
+}
+
+.b-submit {
+  font-family: "Karla", serif;
+  font-weight: bolder;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  padding: 0.75rem;
+  width: 7rem;
+  margin-left: 20px;
+  background-color: #86ad9a;
+  color: #ffefe3;
+  cursor: pointer;
+}
+
+/** BEIGE FOOTER **/
