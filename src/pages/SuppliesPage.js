@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/Global.css";
 import "../styles/Products.css";
 import GreenNav from "../components/GreenNav";
+import GreenFooter from "../components/GreenFooter";
 
 const SuppliesPage = () => {
   return (
@@ -10,22 +11,12 @@ const SuppliesPage = () => {
 
       <div className="products-container">
         <div className="supplies-topics">
-          Potting Mix
-          <br />
-          <br />
-          Pest Control
-          <br />
-          <br />
-          Plant Food
-          <br />
-          <br />
-          Fertilizer
-          <br />
-          <br />
-          Planters
-          <br />
-          <br />
-          Gardening Tools
+          <h4 className="one">Potting Mix</h4>
+          <h4 className="two">Pest Control</h4>
+          <h4 className="three">Plant Food</h4>
+          <h4 className="four">Fertilizer</h4>
+          <h4 className="five">Planters</h4>
+          <h4 className="six">Gardening Tools</h4>
         </div>
         <div className="supplies-products">
           <div className="prod1">
@@ -35,8 +26,8 @@ const SuppliesPage = () => {
               className="product1"
             />
             <div className="supply">
-              <h1 className="name">supply name</h1>
-              <h1 className="price">$25</h1>
+              <h1 className="name">watering can</h1>
+              <h1 className="price">$20</h1>
             </div>
           </div>
           <div className="prod2">
@@ -46,8 +37,8 @@ const SuppliesPage = () => {
               className="product2"
             />
             <div className="supply">
-              <h1 className="name">supply name</h1>
-              <h1 className="price">$10</h1>
+              <h1 className="name">gardening tools</h1>
+              <h1 className="price">$40</h1>
             </div>
           </div>
           <div className="prod3">
@@ -57,7 +48,7 @@ const SuppliesPage = () => {
               className="product3"
             />
             <div className="supply">
-              <h1 className="name">supply name</h1>
+              <h1 className="name">beginner's set</h1>
               <h1 className="price">$50</h1>
             </div>
           </div>
@@ -68,12 +59,14 @@ const SuppliesPage = () => {
               className="product4"
             />
             <div className="supply">
-              <h1 className="name">supply name</h1>
-              <h1 className="price">$15</h1>
+              <h1 className="name">planter set</h1>
+              <h1 className="price">$25</h1>
             </div>
           </div>
         </div>
       </div>
+
+      <GreenFooter />
     </div>
   );
 };
