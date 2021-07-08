@@ -9,17 +9,9 @@
   margin-right: 50px;
 }
 
-.supplies-topics {
-  margin-left: 50px;
-  font-family: "Karla", sans-serif;
-  font-weight: 700;
-  font-size: 40px;
-  color: #75a680;
-  padding-top: 20px;
-  padding-bottom: 10px;
-}
-
-.supplies-products {
+.supplies-products,
+.plants-products,
+.merch-products {
   display: grid;
   grid-auto-columns: 1fr;
   grid-auto-rows: 1fr;
@@ -29,6 +21,15 @@
   justify-items: center;
 }
 
+h4 {
+  cursor: pointer;
+  padding: 15px 0 15px 0;
+}
+
+h4:hover {
+  font-style: italic;
+}
+
 .product1,
 .product2,
 .product3,
@@ -36,6 +37,26 @@
   width: 440px;
   height: 440px;
   object-fit: cover;
+  cursor: pointer;
+}
+
+.product1:hover,
+.product2:hover,
+.product3:hover,
+.product4:hover {
+  opacity: 0.7;
+}
+
+/** SUPPLIES PAGE **/
+
+.supplies-topics {
+  margin-left: 50px;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #86ad9a;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 .supply {
@@ -43,5 +64,51 @@
   justify-content: space-between;
   font-family: "Karla", sans-serif;
   font-weight: 700;
-  color: #75a680;
+  color: #86ad9a;
 }
+
+/** SUPPLIES PAGE **/
+
+/** PLANTS PAGE **/
+
+.plants-topics {
+  margin-left: 50px;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffefe3;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.plant {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: #ffefe3;
+}
+
+/** PLANTS PAGE **/
+
+/** MERCH PAGE **/
+
+.merch-topics {
+  margin-left: 50px;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffefe3;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.merch {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: #ffefe3;
+}
+
+/** MERCH PAGE **/
