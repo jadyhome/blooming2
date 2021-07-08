@@ -3,7 +3,7 @@ import "../styles/Global.css";
 import GreenNav from "../components/GreenNav";
 import Carousel from "../components/Carousel";
 import PlantPreview from "../components/PlantPreview";
-import Footer from "../components/Footer";
+import GreenFooter from "../components/GreenFooter";
 
 const MainPage = () => {
   return (
@@ -11,7 +11,7 @@ const MainPage = () => {
       <GreenNav />
       <Carousel />
       <PlantPreview />
-      <Footer />
+      <GreenFooter />
     </div>
   );
 };
