@@ -94,6 +94,11 @@ img:nth-child(4) {
 
 /** PLANT PREVIEW **/
 
+.email {
+  display: flex;
+  justify-content: center;
+}
+
 /** GREEN FOOTER **/
 
 .g-footer {
