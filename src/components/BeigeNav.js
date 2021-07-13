@@ -6,6 +6,10 @@ const BeigeNav = () => {
   return (
     <header className="beige-navbar">
       <nav className="beige-nav">
+        <NavLink to="/" className="b-title">
+          blooming
+        </NavLink>
+
         <NavLink
           to="/plants"
           activeClassName="b-highlighted"
@@ -26,19 +30,15 @@ const BeigeNav = () => {
           Merch
         </NavLink>
 
-        <NavLink to="/" className="b-title">
-          blooming
+        <NavLink to="/faq" className="b-faq">
+          FAQ
         </NavLink>
 
         <NavLink to="/blog" activeClassName="b-highlighted" className="b-blog">
           Blog
         </NavLink>
 
-        <NavLink to="/faq" className="b-faq">
-          FAQ
-        </NavLink>
-
-        <NavLink to="/cart" activeClassName="b-highlighted" className="b-cart">
+        <NavLink to="/cart" className="b-cart">
           Cart
         </NavLink>
       </nav>

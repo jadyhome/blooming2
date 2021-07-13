@@ -6,6 +6,10 @@ const GreenNav = () => {
   return (
     <header className="green-navbar">
       <nav className="green-nav">
+        <NavLink to="/" className="g-title">
+          blooming
+        </NavLink>
+
         <NavLink to="/plants" className="g-plant">
           Plants
         </NavLink>
@@ -26,19 +30,15 @@ const GreenNav = () => {
           Merch
         </NavLink>
 
-        <NavLink to="/" className="g-title">
-          blooming
+        <NavLink to="/faq" activeClassName="g-highlighted" className="g-faq">
+          FAQ
         </NavLink>
 
         <NavLink to="/blog" className="g-blog">
           Blog
         </NavLink>
 
-        <NavLink to="/faq" activeClassName="g-highlighted" className="g-faq">
-          FAQ
-        </NavLink>
-
-        <NavLink to="/cart" className="g-cart">
+        <NavLink to="/cart" activeClassName="g-highlighted" className="g-cart">
           Cart
         </NavLink>
       </nav>
