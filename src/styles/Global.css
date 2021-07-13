@@ -10,15 +10,15 @@ body {
 
 .mainpage,
 .suppliespage,
-.faqpage {
+.faqpage,
+.cartpage {
   background-color: #ffefe3;
   width: 100%;
 }
 
 .plantspage,
 .merchpage,
-.blogpage,
-.cartpage {
+.blogpage {
   background-color: #86ad9a;
   width: 100%;
 }
