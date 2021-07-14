@@ -24,11 +24,11 @@ const CartPage = () => {
               <h4>
                 <em>Zamioculcas Zamiifolia</em>
               </h4>
-              <h2>Quantity</h2>
+              <h3>Quantity</h3>
               <h3>x 2</h3>
               <br />
-              <h2>Total</h2>
-              <h3>$30.00</h3>
+              <h3>Total</h3>
+              <h3>$ 30.00</h3>
             </div>
           </div>
           <div className="items">
@@ -53,11 +53,11 @@ const CartPage = () => {
                   <br />a small rake
                 </em>
               </h4>
-              <h2>Quantity</h2>
+              <h3>Quantity</h3>
               <h3>x 1</h3>
               <br />
-              <h2>Total</h2>
-              <h3>$50.00</h3>
+              <h3>Total</h3>
+              <h3>$ 50.00</h3>
             </div>
           </div>
           <div className="items">
@@ -77,15 +77,62 @@ const CartPage = () => {
                   made out of organic cotton
                 </em>
               </h4>
-              <h2>Quantity</h2>
+              <h3>Quantity</h3>
               <h3>x 4</h3>
               <br />
-              <h2>Total</h2>
-              <h3>$40.00</h3>
+              <h3>Total</h3>
+              <h3>$ 40.00</h3>
             </div>
           </div>
         </div>
-        <div className="cart-total"></div>
+
+        <div className="cart-total">
+          <div className="cart-info">
+            <h3>
+              SHIPPING OPTION:
+              <br />
+              Standard Shipping
+              <br />$ 0.00
+            </h3>
+            <br />
+            <br />
+            <br />
+            <h3>CURRENCY: USD</h3>
+            <br />
+            <br />
+            <h3>
+              MERCHANDISE SUBTOTAL
+              <br />$ 120.00
+            </h3>
+            <br />
+            <br />
+            <h3>
+              SHIPPING & HANDLING
+              <br />$ 0.00
+            </h3>
+            <br />
+            <br />
+            <h3>
+              DISCOUNTS
+              <br />$ 0.00
+            </h3>
+            <br />
+            <br />
+            <h3>
+              SALES TAX (8.875%)
+              <br />$ 10.65
+            </h3>
+            <br />
+            <br />
+            <br />
+            <br />
+            <h3>
+              GRAND TOTAL
+              <br />$ 130.65
+            </h3>
+            <button className="place-order">place order</button>
+          </div>
+        </div>
       </div>
 
       <GreenFooter />
