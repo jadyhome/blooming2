@@ -37,6 +37,7 @@
   margin-left: 70px;
   padding-top: 10px;
   color: #ffefe3;
+  font-family: "Karla", sans-serif;
 }
 
 .title {
@@ -49,5 +50,5 @@
 
 .blog {
   padding-top: 20px;
-  font-weight: 500;
+  font-weight: 600;
 }
