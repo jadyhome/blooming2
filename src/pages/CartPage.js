@@ -50,7 +50,6 @@ const CartPage = () => {
                   a shovel
                   <br />
                   a pair of pruning shears
-                  <br />a small rake
                 </em>
               </h4>
               <h3>Quantity</h3>
