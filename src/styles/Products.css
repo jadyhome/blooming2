@@ -67,6 +67,18 @@ h4:hover {
   color: #86ad9a;
 }
 
+@media screen and (max-width: 675px) {
+  .supplies-topics {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    text-align: center;
+  }
+  .supply {
+    font-size: 14px;
+  }
+}
+
 /** SUPPLIES PAGE **/
 
 /** PLANTS PAGE **/
@@ -87,6 +99,18 @@ h4:hover {
   font-family: "Karla", sans-serif;
   font-weight: 700;
   color: #ffefe3;
+}
+
+@media screen and (max-width: 675px) {
+  .plants-topics {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    text-align: center;
+  }
+  .plant {
+    font-size: 14px;
+  }
 }
 
 /** PLANTS PAGE **/
@@ -111,4 +135,56 @@ h4:hover {
   color: #ffefe3;
 }
 
+@media screen and (max-width: 675px) {
+  .merch-topics {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    text-align: center;
+  }
+  .merch {
+    font-size: 14px;
+  }
+}
+
 /** MERCH PAGE **/
+
+@media screen and (max-width: 675px) {
+  .products-container {
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+    gap: 0;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    margin-right: 0;
+  }
+  .supplies-products,
+  .plants-products,
+  .merch-products {
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px 30px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .product1,
+  .product2,
+  .product3,
+  .product4 {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+  }
+  .one,
+  .two,
+  .three,
+  .four,
+  .five,
+  .six {
+    padding: 5px;
+  }
+}
