@@ -59,6 +59,40 @@ a:hover {
   border-bottom: 5px solid #86ad9a;
 }
 
+@media screen and (max-width: 675px) {
+  .green-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .g-plant,
+  .g-supplies,
+  .g-merch,
+  .g-faq,
+  .g-blog,
+  .g-cart {
+    margin: 5px;
+  }
+  .g-plant:hover,
+  .g-supplies:hover,
+  .g-merch:hover,
+  .g-faq:hover,
+  .g-blog:hover,
+  .g-cart:hover {
+    background-color: #86ad9a;
+    color: #ffefe3;
+    top: 0;
+    border-bottom: 0;
+  }
+  .g-highlighted {
+    background-color: #86ad9a;
+    color: #ffefe3;
+    top: 0;
+    border-bottom: 0;
+  }
+}
+
 /** GREEN NAVBAR **/
 
 /** BEIGE NAVBAR **/
@@ -110,6 +144,40 @@ a:hover {
   position: relative;
   top: -10px;
   border-bottom: 5px solid #ffefe3;
+}
+
+@media screen and (max-width: 675px) {
+  .beige-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .b-plant,
+  .b-supplies,
+  .b-merch,
+  .b-faq,
+  .b-blog,
+  .b-cart {
+    margin: 5px;
+  }
+  .b-plant:hover,
+  .b-supplies:hover,
+  .b-merch:hover,
+  .b-faq:hover,
+  .b-blog:hover,
+  .b-cart:hover {
+    background-color: #ffefe3;
+    color: #86ad9a;
+    top: 0;
+    border-bottom: 0;
+  }
+  .b-highlighted {
+    background-color: #ffefe3;
+    color: #86ad9a;
+    top: 0;
+    border-bottom: 0;
+  }
 }
 
 /** BEIGE NAVBAR **/
