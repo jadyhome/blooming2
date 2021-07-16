@@ -27,6 +27,8 @@
 
 .details1 {
   font-weight: bolder;
+  font-size: 40px;
+  margin-top: 20px;
 }
 
 .details2 {
@@ -51,4 +53,55 @@
 .blog {
   padding-top: 20px;
   font-weight: 600;
+}
+
+@media screen and (max-width: 675px) {
+  .blog-container {
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+    gap: 0;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    margin-right: 0;
+  }
+  .blog-info {
+    margin: 0 55px 0 55px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .blog-pic {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+  }
+  .details1 {
+    font-weight: bolder;
+    font-size: 32px;
+    margin-top: 20px;
+  }
+  .details2 {
+    font-size: 18px;
+  }
+  .blog-section {
+    border-top: 5px solid #ffefe3;
+    margin: 20px 55px 0 55px;
+    padding-top: 10px;
+    color: #ffefe3;
+    font-family: "Karla", sans-serif;
+  }
+  .title {
+    padding-top: 10px;
+    font-size: 50px;
+  }
+  .by {
+    font-size: 16px;
+    padding-top: 20px;
+  }
+  
+  .blog {
+    font-size: 18px;
+    padding-top: 20px;
+    font-weight: 600;
+  }
 }
