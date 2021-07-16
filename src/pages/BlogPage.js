@@ -16,7 +16,7 @@ const BlogPage = () => {
             alt="Green Plant on White Ceramic Pot - Credits: https://www.pexels.com/@cottonbro"
             className="blog-pic"
           />
-          <h4 className="details1">Details of Plant Here:</h4>
+          <h3 className="details1">Details of Plant Here:</h3>
           <p className="details2">
             <em>Common Name</em> <br /> ZZ Plant
             <br />
