@@ -24,7 +24,7 @@ const BeigeFooter = () => {
         <div className="b-more-info">
           <div className="info-links">
             <a
-              href="commonplantissues"
+              href="https://www.google.com/"
               className="b-links"
               rel="noopener noreferrer"
               target="_blank"
@@ -33,7 +33,7 @@ const BeigeFooter = () => {
               Common Plant Issues
             </a>
             <a
-              href="shippingandreturns"
+              href="https://www.google.com/"
               className="b-links"
               rel="noopener noreferrer"
               target="_blank"
@@ -43,7 +43,7 @@ const BeigeFooter = () => {
             </a>
 
             <a
-              href="aboutus"
+              href="https://www.google.com/"
               className="b-links"
               rel="noopener noreferrer"
               target="_blank"
@@ -52,7 +52,7 @@ const BeigeFooter = () => {
               About Us
             </a>
             <a
-              href="contactus"
+              href="https://www.google.com/"
               className="b-links"
               rel="noopener noreferrer"
               target="_blank"
@@ -62,7 +62,7 @@ const BeigeFooter = () => {
             </a>
 
             <a
-              href="privacypolicy"
+              href="https://www.google.com/"
               className="b-links"
               rel="noopener noreferrer"
               target="_blank"
@@ -71,7 +71,7 @@ const BeigeFooter = () => {
               Privacy Policy
             </a>
             <a
-              href="termsofuse"
+              href="https://www.google.com/"
               className="b-links"
               rel="noopener noreferrer"
               target="_blank"
@@ -84,7 +84,7 @@ const BeigeFooter = () => {
           <div className="b-storeinfo">
             <h2 className="b-contactus">Email Us or Text Us</h2>
             <h3>
-              hihello@blooming.com <br /> (718) 709-6281
+              hihello@blooming.com <br /> (718) 123-4567
             </h3>
             <br />
             <h3>MON - FRI: 11:00am - 7:00pm</h3>
