@@ -4,14 +4,14 @@
   margin: 30px auto;
   margin-bottom: 0;
   width: 100%;
-  height: 300px;
+  height: 400px;
   overflow: hidden;
   position: relative;
 }
 
 .container .slides {
   width: 100%;
-  height: 300px;
+  height: 400px;
 }
 
 .slides {
@@ -53,19 +53,10 @@ img:nth-child(4) {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   row-gap: 30px;
-  gap: 30px;
+  gap: 40px;
   position: relative;
   justify-items: center;
-}
-
-.plantimg1,
-.plantimg2,
-.plantimg3,
-.plantimg4,
-.plantimg5,
-.plantimg5 {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin: 50px 0 50px 0;
 }
 
 .pimg1,
@@ -76,7 +67,7 @@ img:nth-child(4) {
 .pimg6 {
   cursor: pointer;
   width: 350px;
-  height: 500px;
+  height: 350px;
   object-fit: cover;
 }
 
@@ -138,14 +129,21 @@ img:nth-child(4) {
   font-family: "Karla", serif;
   font-weight: bolder;
   font-size: 18px;
-  border: none;
+  border: 3px solid #ffefe3;
   outline: none;
-  padding: 0.75rem;
+  padding: 0.5rem;
   width: 7rem;
   margin-left: 20px;
   background-color: #ffefe3;
   color: #86ad9a;
   cursor: pointer;
+}
+
+.g-submit:hover {
+  transition: 0.6s;
+  border: 3px solid #ffefe3;
+  background-color: #86ad9a;
+  color: #ffefe3;
 }
 
 .g-divider {
@@ -195,6 +193,7 @@ img:nth-child(4) {
 .g-twitter,
 .g-youtube {
   margin-left: 0;
+  margin-right: 30px;
   color: #ffefe3;
   font-family: "Karla", serif;
   font-size: 16px;
@@ -297,14 +296,21 @@ img:nth-child(4) {
   font-family: "Karla", serif;
   font-weight: bolder;
   font-size: 18px;
-  border: none;
+  border: 3px solid #86ad9a;
   outline: none;
-  padding: 0.75rem;
+  padding: 0.5rem;
   width: 7rem;
   margin-left: 20px;
   background-color: #86ad9a;
   color: #ffefe3;
   cursor: pointer;
+}
+
+.b-submit:hover {
+  transition: 0.6s;
+  border: 3px solid #86ad9a;
+  background-color: #ffefe3;
+  color: #86ad9a;
 }
 
 .b-divider {
@@ -354,6 +360,7 @@ img:nth-child(4) {
 .b-twitter,
 .b-youtube {
   margin-left: 0;
+  margin-right: 30px;
   color: #86ad9a;
   font-family: "Karla", serif;
   font-size: 16px;
