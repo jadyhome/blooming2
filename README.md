@@ -1,4 +1,4 @@
-# blooming2
+# blooming v.2
 
 #### Jady Hom
 
@@ -10,15 +10,16 @@
 
 **_blooming_** is a mockup e-commerce website with a focus on selling plants, supplies, and merch.
 
-blooming will also have a FAQ page as well as a blog page.
+**_blooming_** will also have a Blog page, FAQ page, as well as a Cart page.
 
-<!-- Check out my deployed website here → [blooming]() -->
+Check out my deployed website here → [blooming](https://bloomingg.netlify.app/)
 
 ---
 
 ### Technologies Used
 
-- HTML / CSS / Javascript
+- HTML + CSS
+- Javascript
 - React
 - Figma
 
@@ -38,42 +39,12 @@ Initial Mockup/Wireframe
 All Pages
 ![All Pages](assets/allpages.jpg)
 
-Main Page
-![Main Page](assets/mainpage.png)
-
-Plants Page
-![Plant Page](assets/plantspage.png)
-
-Supplies Page
-![Supplies Page](assets/suppliespage.png)
-
-Merch Page
-![Merch Page](assets/merchpage.png)
-
-Blog Page
-![Blog Page](assets/blogpage.png)
-
-FAQ Page
-![FAQ Page](assets/faqpage.png)
-
-Cart Page
-![Cart Page](assets/cartpage.png)
-
----
-
-### Screenshots
-
-<!-- Final Mockup/Wireframe -->
-
-<!-- Home Page
-![Home Page]() -->
-
 ---
 
 ### Future Updates
 
-- [x]
-- [ ]
+- [ ] Make it more mobile responsive
+- [ ] Fix Carousel
 
 ---
 
@@ -84,9 +55,10 @@ Cart Page
 [Figma](https://www.figma.com)
 
 [Pexels](https://www.pexels.com/)
+
+- [@cottonbro](https://www.pexels.com/@cottonbro)
 - [@corin](https://www.pexels.com/@corin)
 - [@tharatip-sukee-294273](https://www.pexels.com/@tharatip-sukee-294273)
-- [@cottonbro](https://www.pexels.com/@cottonbro)
 - [@minan1398](https://www.pexels.com/@minan1398)
 - [@fotios-photos](https://www.pexels.com/@fotios-photos)
 - [@gary-barnes](https://www.pexels.com/@gary-barnes)
