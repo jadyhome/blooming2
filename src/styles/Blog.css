@@ -5,7 +5,7 @@
   grid-template-columns: 1fr 3fr;
   gap: 30px 30px;
   margin-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
   margin-right: 50px;
 }
 
@@ -37,14 +37,15 @@
 
 .blog-section {
   margin-left: 70px;
-  padding-top: 10px;
   color: #ffefe3;
   font-family: "Karla", sans-serif;
 }
 
 .title {
   font-size: 60px;
+  margin-block-start: 0;
 }
+
 .by {
   font-size: 20px;
   padding-top: 20px;
