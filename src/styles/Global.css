@@ -22,3 +22,41 @@ body {
   background-color: #86ad9a;
   width: 100%;
 }
+
+.scroll-to-top {
+  z-index: 1;
+  position: fixed;
+  bottom: 1rem;
+  right: 2rem;
+  animation: fadeIn 600ms ease-in-out 1s both;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.g-top {
+  border: none;
+  font-family: "Karla", sans-serif;
+  font-size: 18px;
+  font-weight: bolder;
+  padding: 5px 10px 5px 10px;
+  background-color: #86ad9a;
+  color: #ffefe3;
+  cursor: pointer;
+}
+
+.b-top {
+  border: none;
+  font-family: "Karla", sans-serif;
+  font-size: 18px;
+  font-weight: bolder;
+  padding: 5px 10px 5px 10px;
+  background-color: #ffefe3;
+  color: #86ad9a;
+  cursor: pointer;
+}
