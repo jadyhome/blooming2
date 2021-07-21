@@ -2,12 +2,14 @@ import React from "react";
 import "../styles/Global.css";
 import "../styles/Products.css";
 import BeigeNav from "../components/BeigeNav";
+import BeigeScroll from "../components/BeigeScroll";
 import BeigeFooter from "../components/BeigeFooter";
 
 const MerchPage = () => {
   return (
     <div className="merchpage">
       <BeigeNav />
+      <BeigeScroll />
 
       <div className="products-container">
         <div className="merch-topics">

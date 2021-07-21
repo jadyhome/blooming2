@@ -2,12 +2,14 @@ import React from "react";
 import "../styles/Global.css";
 import "../styles/Blog.css";
 import BeigeNav from "../components/BeigeNav";
+import BeigeScroll from "../components/BeigeScroll";
 import BeigeFooter from "../components/BeigeFooter";
 
 const BlogPage = () => {
   return (
     <div className="blogpage">
       <BeigeNav />
+      <BeigeScroll />
 
       <div className="blog-container">
         <div className="blog-info">
