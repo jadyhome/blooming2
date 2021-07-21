@@ -67,7 +67,7 @@
     margin-right: 0;
   }
   .blog-info {
-    margin: 0 55px 0 55px;
+    margin: 0 12px 0 12px;
     padding-top: 10px;
     padding-bottom: 10px;
   }
@@ -86,7 +86,7 @@
   }
   .blog-section {
     border-top: 5px solid #ffefe3;
-    margin: 20px 55px 0 55px;
+    margin: 20px 12px 20px 12px;
     padding-top: 10px;
     color: #ffefe3;
     font-family: "Karla", sans-serif;
@@ -99,7 +99,6 @@
     font-size: 16px;
     padding-top: 20px;
   }
-  
   .blog {
     font-size: 18px;
     padding-top: 20px;
