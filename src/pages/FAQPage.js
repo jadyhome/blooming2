@@ -2,12 +2,14 @@ import React from "react";
 import "../styles/Global.css";
 import "../styles/Faq.css";
 import GreenNav from "../components/GreenNav";
+import GreenScroll from "../components/GreenScroll";
 import GreenFooter from "../components/GreenFooter";
 
 const FAQPage = () => {
   return (
     <div className="faqpage">
       <GreenNav />
+      <GreenScroll />
 
       <div className="faq-container">
         <div className="faq">

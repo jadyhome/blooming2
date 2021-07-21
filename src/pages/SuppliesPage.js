@@ -2,12 +2,14 @@ import React from "react";
 import "../styles/Global.css";
 import "../styles/Products.css";
 import GreenNav from "../components/GreenNav";
+import GreenScroll from "../components/GreenScroll";
 import GreenFooter from "../components/GreenFooter";
 
 const SuppliesPage = () => {
   return (
     <div className="suppliespage">
       <GreenNav />
+      <GreenScroll />
 
       <div className="products-container">
         <div className="supplies-topics">

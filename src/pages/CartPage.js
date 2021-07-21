@@ -2,12 +2,14 @@ import React from "react";
 import "../styles/Global.css";
 import "../styles/Cart.css";
 import GreenNav from "../components/GreenNav";
+import GreenScroll from "../components/GreenScroll";
 import GreenFooter from "../components/GreenFooter";
 
 const CartPage = () => {
   return (
     <div className="cartpage">
       <GreenNav />
+      <GreenScroll />
 
       <div className="cart-container">
         <div className="cart-items">
