@@ -19,7 +19,10 @@ const CartPage = () => {
                 className="item1"
               />
             </div>
-            <div className="items-info">
+            <div
+              className="items-info"
+              style={{ "justify-self": "start", "margin-left": "40px" }}
+            >
               <h2>zz plant</h2>
               <h4>
                 <em>Zamioculcas Zamiifolia</em>
@@ -39,7 +42,10 @@ const CartPage = () => {
                 className="item2"
               />
             </div>
-            <div className="items-info">
+            <div
+              className="items-info"
+              style={{ "justify-self": "start", "margin-left": "40px" }}
+            >
               <h2>beginner's set</h2>
               <h4>
                 <em>
@@ -48,8 +54,7 @@ const CartPage = () => {
                   a medium size planter
                   <br />
                   a shovel
-                  <br />
-                  a pair of pruning shears
+                  <br />a pair of pruning shears
                 </em>
               </h4>
               <h3>Quantity</h3>
@@ -67,7 +72,10 @@ const CartPage = () => {
                 className="item3"
               />
             </div>
-            <div className="items-info">
+            <div
+              className="items-info"
+              style={{ "justify-self": "start", "margin-left": "40px" }}
+            >
               <h2>canvas tote bag</h2>
               <h4>
                 <em>
