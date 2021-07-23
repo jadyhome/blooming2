@@ -79,6 +79,43 @@ a:hover {
     border-bottom: 5px solid #86ad9a;
   }
 }
+@media screen and (max-width: 768px) and (max-height: 1024px) {
+  .green-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .g-title {
+    font-size: 50px;
+  }
+  .g-plant,
+  .g-supplies,
+  .g-merch,
+  .g-faq,
+  .g-blog,
+  .g-cart {
+    margin: 10px;
+  }
+  .g-plant:hover,
+  .g-supplies:hover,
+  .g-merch:hover,
+  .g-faq:hover,
+  .g-blog:hover,
+  .g-cart:hover {
+    background-color: #86ad9a;
+    color: #ffefe3;
+    top: 0;
+    border-bottom: 0;
+  }
+  .g-highlighted {
+    background-color: #86ad9a;
+    color: #ffefe3;
+    top: 0;
+    border-bottom: 0;
+  }
+}
 @media screen and (max-width: 675px) {
   .green-nav {
     display: flex;
@@ -184,6 +221,43 @@ a:hover {
     position: relative;
     top: -7px;
     border-bottom: 5px solid #ffefe3;
+  }
+}
+@media screen and (max-width: 768px) and (max-height: 1024px) {
+  .beige-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .b-title {
+    font-size: 50px;
+  }
+  .b-plant,
+  .b-supplies,
+  .b-merch,
+  .b-faq,
+  .b-blog,
+  .b-cart {
+    margin: 10px;
+  }
+  .b-plant:hover,
+  .b-supplies:hover,
+  .b-merch:hover,
+  .b-faq:hover,
+  .b-blog:hover,
+  .b-cart:hover {
+    background-color: #ffefe3;
+    color: #86ad9a;
+    top: 0;
+    border-bottom: 0;
+  }
+  .b-highlighted {
+    background-color: #ffefe3;
+    color: #86ad9a;
+    top: 0;
+    border-bottom: 0;
   }
 }
 @media screen and (max-width: 675px) {
